@@ -11,11 +11,11 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"
         },
-        strict = false,
+        strict = true,
         features = "src/test/resources/features",
         glue = "com/KurtGeiger/stepDefinitions",
         dryRun = false,
-        tags = "@Carvela"  // @Carvela, @Men, @Checkout
+        tags = "@Search"  // @Carvela, @Men, @Checkout
 )
 public class CukesRunner {
 }
